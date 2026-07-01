@@ -4,6 +4,9 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Sachin | Portfolio</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@300;400;500;600;700;800&family=Poppins:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="style.css" />
     <link
       rel="stylesheet"
@@ -11,6 +14,10 @@
     />
   </head>
   <body>
+    <div class="blob-glow blob-1"></div>
+    <div class="blob-glow blob-2"></div>
+    <div class="blob-glow blob-3"></div>
+
     <div class="loader-overlay" id="loader">
       <div class="loader-logo">S</div>
       <div class="loading-bar"><span></span></div>
@@ -195,10 +202,11 @@
           Each project is built to be responsive, user-friendly, and ready for
           real-world use.
         </p>
-      </div>
-      <div class="cards">
+          <div class="cards">
         <article class="card">
-          <img src="images/ai_resume_ss.jpg" alt="AI Resume Analyzer" />
+          <div class="card-img-container">
+            <img src="images/ai_resume_ss.jpg" alt="AI Resume Analyzer" />
+          </div>
           <div class="card-content">
             <span class="card-badge">AI Product</span>
             <h3>AI Resume Analyzer</h3>
@@ -210,14 +218,16 @@
               <span>HTML</span><span>CSS</span><span>JS</span>
             </div>
             <div class="card-actions">
-              <a href="#" class="btn btn-small">GitHub</a>
-              <a href="#" class="btn btn-small btn-secondary">Live Demo</a>
+              <a href="#" class="btn btn-small btn-secondary">GitHub</a>
+              <a href="#" class="btn btn-small btn-primary">Live Demo</a>
             </div>
           </div>
         </article>
 
         <article class="card">
-          <img src="images/AnimeX_ss.jpg" alt="AnimeX project" />
+          <div class="card-img-container">
+            <img src="images/AnimeX_ss.jpg" alt="AnimeX project" />
+          </div>
           <div class="card-content">
             <span class="card-badge">Web App</span>
             <h3>AnimeX</h3>
@@ -228,19 +238,17 @@
               <span>React</span><span>API</span><span>CSS</span>
             </div>
             <div class="card-actions">
-             
-
               <a
-                href="https://anime-db138u0zj-sachins-projects-c0610ab4.vercel.app"
+                href="https://github.com/Sachin-mern-31/anime-db"
                 target="_blank"
-                class="btn2"
+                class="btn btn-small btn-secondary"
               >
                 GitHub
               </a>
-               <a
+              <a
                 href="https://anime-db138u0zj-sachins-projects-c0610ab4.vercel.app"
                 target="_blank"
-                class="btn"
+                class="btn btn-small btn-primary"
               >
                 Live Demo
               </a>
@@ -249,7 +257,9 @@
         </article>
 
         <article class="card">
-          <img src="images/Ai_powered_cllg_ss.jpg" alt="College marketplace" />
+          <div class="card-img-container">
+            <img src="images/Ai_powered_cllg_ss.jpg" alt="College marketplace" />
+          </div>
           <div class="card-content">
             <span class="card-badge">Marketplace</span>
             <h3>College Marketplace</h3>
@@ -261,12 +271,12 @@
               <span>Node</span><span>MongoDB</span><span>Express</span>
             </div>
             <div class="card-actions">
-              <a href="#" class="btn btn-small">GitHub</a>
-              <a href="#" class="btn btn-small btn-secondary">Live Demo</a>
+              <a href="#" class="btn btn-small btn-secondary">GitHub</a>
+              <a href="#" class="btn btn-small btn-primary">Live Demo</a>
             </div>
           </div>
         </article>
-      </div>
+      </div>    </div>
     </section>
 
     <section class="section reveal" id="internships">
