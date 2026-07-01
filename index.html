@@ -1,0 +1,310 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Sachin | Portfolio</title>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+    />
+  </head>
+  <body>
+    <div class="loader-overlay" id="loader">
+      <div class="loader-logo">S</div>
+      <div class="loading-bar"><span></span></div>
+    </div>
+
+    <header>
+      <nav>
+        <a class="logo" href="#home">Sachin</a>
+        <ul>
+          <li><a href="#home">Home</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#skills">Skills</a></li>
+          <li><a href="#projects">Projects</a></li>
+          <li><a href="#internships">Internships</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+        <div class="nav-actions">
+          <a class="btn btn-nav" href="#contact">Contact</a>
+          <button class="theme-toggle" id="themeToggle" aria-label="Toggle theme">
+            <i id="themeIcon" class="fa-solid fa-moon"></i>
+          </button>
+        </div>
+      </nav>
+    </header>
+
+    <section class="hero reveal" id="home">
+      <div class="hero-text">
+        <p class="eyebrow">Full Stack Developer • UI/UX Enthusiast</p>
+        <h1>Hello, I'm <span>Sachin</span></h1>
+        <h2 class="typing-effect">Full Stack Web Developer</h2>
+        <p>
+          I craft modern, responsive, and high-performance web experiences using
+          HTML, CSS, JavaScript, React, Node.js and MongoDB.
+        </p>
+        <div class="hero-actions">
+          <a href="#projects" class="btn btn-primary">💻 View Projects</a>
+          <a href="Sachin's_resume.pdf" class="btn btn-secondary" download>⬇ Download Resume</a>
+          <a href="#contact" class="btn btn-ghost">📧 Contact Me</a>
+        </div>
+        <div class="social-icons">
+          <a href="https://github.com/Sachin-mern-31" target="_blank" title="GitHub"><i class="fab fa-github"></i></a>
+          <a href="https://linkedin.com/in/sachin-mern/" target="_blank" title="LinkedIn"><i class="fab fa-linkedin"></i></a>
+          <a href="https://www.instagram.com/s4chin.31_/" target="_blank" title="Instagram"><i class="fab fa-instagram"></i></a>
+        </div>
+      </div>
+      <div class="hero-image">
+        <img src="images/sachin.png" alt="Sachin" />
+      </div>
+    </section>
+
+    <section class="section reveal" id="about">
+      <div class="section-heading">
+        <span class="section-badge"><i class="fas fa-user"></i> About Me</span>
+        <h2>Designing thoughtful digital experiences</h2>
+        <p>I blend strategy, interface design, and modern development to build products that feel polished, fast, and purposeful.</p>
+      </div>
+      <div class="about-grid">
+        <div class="about-card">
+          <div class="card-icon"><i class="fas fa-lightbulb"></i></div>
+          <p>
+            I am a passionate full-stack web developer who enjoys turning ideas into polished digital products.
+            My focus is on building clean interfaces, smooth interactions, and scalable web applications.
+          </p>
+          <div class="feature-list">
+            <span class="feature-pill"><i class="fas fa-check"></i> Clean UI systems</span>
+            <span class="feature-pill"><i class="fas fa-check"></i> Scalable architecture</span>
+            <span class="feature-pill"><i class="fas fa-check"></i> User-first thinking</span>
+          </div>
+        </div>
+        <div class="about-card highlight-card">
+          <div class="card-icon"><i class="fas fa-rocket"></i></div>
+          <h3>What I Do</h3>
+          <ul>
+            <li>Responsive Frontend Development</li>
+            <li>Backend APIs with Node.js</li>
+            <li>Database Design with MongoDB</li>
+            <li>Creative UI/UX Enhancements</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <section class="section reveal" id="skills">
+      <div class="section-heading">
+        <span class="section-badge"><i class="fas fa-code"></i> Skills</span>
+        <h2>Core strengths and modern toolkit</h2>
+        <p>Focused on delivering responsive interfaces, reliable backends, and polished user journeys.</p>
+      </div>
+      <div class="skill-bars">
+        <div class="skill-bar">
+          <div class="skill-meta"><span><i class="fab fa-html5"></i> HTML</span><span>95%</span></div>
+          <div class="skill-track"><div class="skill-fill" style="--value:95%"></div></div>
+        </div>
+        <div class="skill-bar">
+          <div class="skill-meta"><span><i class="fab fa-css3-alt"></i> CSS</span><span>90%</span></div>
+          <div class="skill-track"><div class="skill-fill" style="--value:90%"></div></div>
+        </div>
+        <div class="skill-bar">
+          <div class="skill-meta"><span><i class="fab fa-js"></i> JavaScript</span><span>85%</span></div>
+          <div class="skill-track"><div class="skill-fill" style="--value:85%"></div></div>
+        </div>
+        <div class="skill-bar">
+          <div class="skill-meta"><span><i class="fab fa-react"></i> React</span><span>80%</span></div>
+          <div class="skill-track"><div class="skill-fill" style="--value:80%"></div></div>
+        </div>
+        <div class="skill-bar">
+          <div class="skill-meta"><span><i class="fab fa-node-js"></i> Node.js</span><span>82%</span></div>
+          <div class="skill-track"><div class="skill-fill" style="--value:82%"></div></div>
+        </div>
+        <div class="skill-bar">
+          <div class="skill-meta"><span><i class="fas fa-database"></i> MongoDB</span><span>78%</span></div>
+          <div class="skill-track"><div class="skill-fill" style="--value:78%"></div></div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section reveal" id="projects">
+      <div class="section-heading">
+        <span class="section-badge"><i class="fas fa-briefcase"></i> Projects</span>
+        <h2>Selected work with measurable impact</h2>
+        <p>Each project is built to be responsive, user-friendly, and ready for real-world use.</p>
+      </div>
+      <div class="cards">
+        <article class="card">
+          <img src="images/ai_resume_ss.jpg" alt="AI Resume Analyzer" />
+          <div class="card-content">
+            <span class="card-badge">AI Product</span>
+            <h3>AI Resume Analyzer</h3>
+            <p>A smart resume analysis platform with a polished, responsive interface.</p>
+            <div class="tech-stack">
+              <span>HTML</span><span>CSS</span><span>JS</span>
+            </div>
+            <div class="card-actions">
+              <a href="#" class="btn btn-small">GitHub</a>
+              <a href="#" class="btn btn-small btn-secondary">Live Demo</a>
+            </div>
+          </div>
+        </article>
+
+        <article class="card">
+          <img src="images/AnimeX_ss.jpg" alt="AnimeX project" />
+          <div class="card-content">
+            <span class="card-badge">Web App</span>
+            <h3>AnimeX</h3>
+            <p>An anime discovery app that fetches data from an external API.</p>
+            <div class="tech-stack">
+              <span>React</span><span>API</span><span>CSS</span>
+            </div>
+            <div class="card-actions">
+              <a href="#" class="btn btn-small">GitHub</a>
+              <a href="#" class="btn btn-small btn-secondary">Live Demo</a>
+            </div>
+          </div>
+        </article>
+
+        <article class="card">
+          <img src="images/Ai_powered_cllg_ss.jpg" alt="College marketplace" />
+          <div class="card-content">
+            <span class="card-badge">Marketplace</span>
+            <h3>College Marketplace</h3>
+            <p>A responsive marketplace for students to buy and sell campus essentials.</p>
+            <div class="tech-stack">
+              <span>Node</span><span>MongoDB</span><span>Express</span>
+            </div>
+            <div class="card-actions">
+              <a href="#" class="btn btn-small">GitHub</a>
+              <a href="#" class="btn btn-small btn-secondary">Live Demo</a>
+            </div>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <section class="section reveal" id="internships">
+      <div class="section-heading">
+        <span class="section-badge"><i class="fas fa-briefcase"></i> Internships</span>
+        <h2>Hands-on experience in real product teams</h2>
+        <p>Building practical experience through structured internships and focused learning.</p>
+      </div>
+      <div class="timeline">
+        <div class="timeline-item">
+          <div class="timeline-dot"></div>
+          <div class="timeline-content">
+            <h3>2026 • Cognifyz Technologies</h3>
+            <p>Web Development Internship</p>
+          </div>
+        </div>
+        <div class="timeline-item">
+          <div class="timeline-dot"></div>
+          <div class="timeline-content">
+            <h3>2026 • Future Interns</h3>
+            <p>Full Stack Internship</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section reveal" id="education">
+      <div class="section-heading">
+        <span class="section-badge"><i class="fas fa-graduation-cap"></i> Education</span>
+        <h2>Academic foundation with modern practical skills</h2>
+        <p>Consistent learning across core computer science fundamentals and current web technologies.</p>
+      </div>
+      <div class="cards edu-grid">
+        <div class="card info-card">
+          <div class="card-icon"><i class="fas fa-laptop-code"></i></div>
+          <h3>Computer Science</h3>
+          <p>Focused on web development, algorithms, and software engineering fundamentals.</p>
+        </div>
+        <div class="card info-card">
+          <div class="card-icon"><i class="fas fa-award"></i></div>
+          <h3>Certifications</h3>
+          <p>Active learner with hands-on experience in modern web technologies and UI design practices.</p>
+        </div>
+      </div>
+    </section>
+
+    <section class="section reveal" id="achievements">
+      <div class="section-heading">
+        <span class="section-badge"><i class="fas fa-trophy"></i> Achievements</span>
+        <h2>Progress backed by consistent effort</h2>
+        <p>Each milestone reflects deliberate practice, hands-on learning, and a growing portfolio.</p>
+      </div>
+      <div class="stats-grid">
+        <div class="stat-card">
+          <div class="stat-icon"><i class="fas fa-layer-group"></i></div>
+          <h3 class="stat-number" data-target="10" data-suffix="+">0</h3>
+          <p>Projects</p>
+        </div>
+        <div class="stat-card">
+          <div class="stat-icon"><i class="fas fa-briefcase"></i></div>
+          <h3 class="stat-number" data-target="2" data-suffix="">0</h3>
+          <p>Internships</p>
+        </div>
+        <div class="stat-card">
+          <div class="stat-icon"><i class="fas fa-code"></i></div>
+          <h3 class="stat-number" data-target="200" data-suffix="+">0</h3>
+          <p>DSA Problems</p>
+        </div>
+        <div class="stat-card">
+          <div class="stat-icon"><i class="fas fa-award"></i></div>
+          <h3 class="stat-number" data-target="5" data-suffix="+">0</h3>
+          <p>Certificates</p>
+        </div>
+      </div>
+    </section>
+
+    <section class="section reveal" id="contact">
+      <div class="section-heading">
+        <span class="section-badge"><i class="fas fa-paper-plane"></i> Contact Me</span>
+        <h2>Let’s create something remarkable</h2>
+        <p>Open to freelance projects, internships, and full-time opportunities.</p>
+      </div>
+      <div class="contact-layout">
+        <div class="contact-card">
+          <h3>Say hello</h3>
+          <p>Whether it’s a product idea, a redesign, or a new build, I’d love to hear about it.</p>
+          <a href="mailto:sachin@example.com"><i class="fas fa-envelope"></i> sachin@example.com</a>
+          <a href="https://linkedin.com/in/sachin-mern/" target="_blank"><i class="fab fa-linkedin"></i> LinkedIn</a>
+          <a href="https://github.com/Sachin-mern-31" target="_blank"><i class="fab fa-github"></i> GitHub</a>
+        </div>
+        <form class="contact-form">
+          <div class="input-box">
+            <i class="fas fa-user"></i>
+            <input type="text" name="name" placeholder="Your Name" required />
+          </div>
+          <div class="input-box">
+            <i class="fas fa-envelope"></i>
+            <input type="email" name="email" placeholder="Email" required />
+          </div>
+          <div class="input-box">
+            <i class="fas fa-tag"></i>
+            <input type="text" name="subject" placeholder="Subject" />
+          </div>
+          <div class="input-box textarea-box">
+            <i class="fas fa-comment-alt"></i>
+            <textarea name="message" rows="6" placeholder="Message"></textarea>
+          </div>
+          <button class="btn btn-primary" type="submit">✉ Send Message</button>
+        </form>
+      </div>
+    </section>
+
+    <footer class="footer">
+      <h3>Let's Work Together</h3>
+      <div class="footer-links">
+        <a href="mailto:sachin@example.com"><i class="fas fa-envelope"></i> Email</a>
+        <a href="https://linkedin.com/in/sachin-mern/" target="_blank"><i class="fab fa-linkedin"></i> LinkedIn</a>
+        <a href="https://github.com/Sachin-mern-31" target="_blank"><i class="fab fa-github"></i> GitHub</a>
+      </div>
+      <p>© 2026 Sachin. Built with passion and purpose.</p>
+    </footer>
+
+    <button id="scrollTopBtn" class="scroll-top" aria-label="Scroll to top">↑</button>
+    <script src="js/script.js"></script>
+  </body>
+</html>
